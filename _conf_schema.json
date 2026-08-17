@@ -1,0 +1,42 @@
+{
+  "accept_friend_request": {
+    "type": "bool",
+    "description": "自动同意好友请求",
+    "hint": "开启后，收到的好友申请会自动通过",
+    "default": true
+  },
+  "friend_request_keywords": {
+    "type": "text",
+    "description": "好友验证信息关键词白名单（可选）",
+    "hint": "每行一个关键词，验证信息中命中任意一个关键词才会自动同意；留空表示来者不拒，全部自动同意。未命中的申请不会被自动拒绝，只是跳过，交由人工在 QQ 客户端/协议端手动处理。",
+    "default": ""
+  },
+  "friend_greeting_enable": {
+    "type": "bool",
+    "description": "同意好友请求后自动发送一条欢迎语",
+    "default": false
+  },
+  "friend_greeting_message": {
+    "type": "string",
+    "description": "好友欢迎语内容",
+    "default": "你好呀，很高兴认识你～"
+  },
+  "accept_group_invite": {
+    "type": "bool",
+    "description": "自动同意「邀请机器人入群」",
+    "hint": "别人拉机器人进群时产生的邀请请求",
+    "default": true
+  },
+  "group_invite_whitelist": {
+    "type": "text",
+    "description": "允许邀请机器人入群的 QQ 号白名单（可选）",
+    "hint": "每行一个 QQ 号，只有名单中的人发出的邀请才会自动同意；留空表示来者不拒。",
+    "default": ""
+  },
+  "accept_group_join_request": {
+    "type": "bool",
+    "description": "自动同意「加群申请」",
+    "hint": "仅当机器人是群管理员/群主时才会收到别人申请加入本群的请求。默认关闭：一旦开启，机器人管理的每个群都会自动通过任何人的加群申请，请确认这是你想要的效果后再打开。",
+    "default": false
+  }
+}

@@ -1,0 +1,2 @@
+# astrbot_plugin_auto_accept
+AstrBot插件，自动同意QQ好友申请、自动同意群聊入群申请

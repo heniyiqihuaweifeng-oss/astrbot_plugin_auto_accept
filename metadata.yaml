@@ -1,0 +1,8 @@
+name: astrbot_plugin_auto_accept
+desc: 自动同意 QQ 好友申请和邀请入群请求，支持关键词/白名单过滤
+short_desc: 自动同意 QQ 好友申请和邀请入群
+author: your_name
+version: 1.0.0
+repo: https://github.com/yourname/astrbot_plugin_auto_accept
+support_platforms:
+  - aiocqhttp
